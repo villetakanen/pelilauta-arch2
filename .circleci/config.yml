@@ -35,5 +35,5 @@ jobs:
           command: 'git push --follow-tags origin master'
       - run:
           name: Firebase-Deploy
-          command: './node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting'
+          command: 'npx firebase deploy --token "$FIREBASE_TOKEN" --only hosting'
 
