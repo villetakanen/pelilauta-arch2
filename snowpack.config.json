@@ -1,4 +1,4 @@
 {
   "extends": "@snowpack/app-scripts-vue",
-  "plugins": []
+  "plugins": [["@snowpack/plugin-run-script", {"cmd": "sass src/css:public/css --no-source-map", "watch": "$1 --watch"}]]
 }
