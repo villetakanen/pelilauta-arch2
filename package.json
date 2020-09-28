@@ -4,6 +4,8 @@
   "description": "A social RPG site built on Vue3",
   "main": "index.js",
   "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
     "test": "test",
     "release": "standard-version"
   },
@@ -18,8 +20,13 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@snowpack/app-scripts-vue": "^1.8.6",
     "husky": "^4.3.0",
+    "snowpack": "^2.12.1",
     "standard-version": "^9.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "config": {
     "commitizen": {
@@ -30,5 +37,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
   }
 }
