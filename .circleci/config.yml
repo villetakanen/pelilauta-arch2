@@ -27,3 +27,6 @@ jobs:
       - run:
           name: npm-run-release
           command: 'npm run release'
+      - run:
+          name: npm-run-publish
+          command: 'git push --follow-tags origin master && npm publish'
