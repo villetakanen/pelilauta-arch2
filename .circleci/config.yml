@@ -11,9 +11,10 @@ jobs:
     docker:
       -image: circleci/node:10.16.3
     steps:
+      -checkout
       -run:
-        name: 'install npm packages'
+        name: install-npm
         command: 'npm install'
       -run:
-        name: 'build'
+        name: npm-run-build
         command: 'npm run build'
