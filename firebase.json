@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "site": "pelilauta",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**/*.css.proxy.js",
+        "destination": "/styles.js"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

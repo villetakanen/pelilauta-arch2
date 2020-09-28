@@ -1,6 +1,5 @@
 <template>
   <AppBar />
-  <div style="margin-top:72px">Hello!..</div>
 </template>
 
 <script lang="ts">
@@ -14,6 +13,6 @@ export default defineComponent({
 })
 </script>
 
-<style lang="css">
-@import url("./css/base.css");
+<style>
+/* dummy */
 </style>
