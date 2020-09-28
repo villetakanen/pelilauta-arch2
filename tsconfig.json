@@ -1,6 +1,11 @@
 {
+    "include": ["src", "types"],
+    "extends": "@snowpack/app-scripts-vue/tsconfig.base.json",
     "compilerOptions": {
-        "module": "esnext"
+        "module": "esnext",
+        "baseUrl": "./",
+        "isolatedModules": true,
+        "paths": {"*": ["web_modules/.types/*"]}
     },
     "exclude": [
         "node_modules"
