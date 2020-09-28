@@ -29,7 +29,7 @@ jobs:
           command: 'npm run release'
       - run:
           name: git-skip-ci
-          command: 'git commit -m "[skip ci] for release" --allow-empty'
+          command: 'git commit -m "chore: [skip ci] for release" --allow-empty'
       - run:
           name: npm-run-publish
-          command: 'git push --follow-tags origin master && npm publish'
+          command: 'git push --follow-tags origin master'
