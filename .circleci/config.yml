@@ -4,7 +4,7 @@ workflows:
   version: 2
   build:
    jobs:
-     - build
+     - build:
          filters:
            branches:
              only: master
@@ -21,3 +21,6 @@ jobs:
       - run:
           name: npm-run-build
           command: 'npm run build'
+      - run:
+          name: npm-run-release
+          command: 'npm run release'
