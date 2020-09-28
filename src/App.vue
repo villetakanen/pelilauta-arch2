@@ -3,5 +3,5 @@
 </template>
 
 <style lang="css">
-@import url("./css/base.css");
+@import url('./css/base.css');
 </style>
