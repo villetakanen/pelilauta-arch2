@@ -1,3 +1,24 @@
+.material-fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  border: 0;
+  color: #171725;
+  background-color: #1de9b6;
+  font-family: "Roboto", sans-serif;
+  line-height: 37px;
+  font-size: 37px;
+  overflow: hidden;
+  font-weight: 300;
+}
+
+*:focus {
+  outline: none;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   color: #666;
