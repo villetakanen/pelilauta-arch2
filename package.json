@@ -21,6 +21,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@snowpack/app-scripts-vue": "^1.8.6",
+    "@snowpack/plugin-vue": "^2.2.1",
     "husky": "^4.3.0",
     "snowpack": "^2.12.1",
     "standard-version": "^9.0.0",
