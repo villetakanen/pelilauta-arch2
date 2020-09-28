@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/villetakanen/pelilauta/compare/v1.2.2...v1.3.0) (2020-09-28)
+
+
+### Features
+
+* auto-deploy master ([2cf4284](https://github.com/villetakanen/pelilauta/commit/2cf428453c1041a628a43f3a9a91681f47a4df7e))
+* firebase deploy ([ba4b302](https://github.com/villetakanen/pelilauta/commit/ba4b30218226c7067080f8e8c822989c1bc906c1))
+* minimized styles.js ([aada8d4](https://github.com/villetakanen/pelilauta/commit/aada8d43a32600dcdc09cd4acb8950c35be64a21))
+
+
+### Bug Fixes
+
+* removed hello world from app.vue ([f259696](https://github.com/villetakanen/pelilauta/commit/f2596969d948a37bfcc0af39bf72e54778cd603e))
+
 ### [1.2.2](https://github.com/villetakanen/pelilauta/compare/v1.2.1...v1.2.2) (2020-09-28)
 
 ### [1.2.1](https://github.com/villetakanen/pelilauta/compare/v1.2.0...v1.2.1) (2020-09-28)
