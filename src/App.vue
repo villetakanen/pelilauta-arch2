@@ -1,6 +1,5 @@
 <template>
   <AppBar />
-  <div style="margin-top:72px">Hello!..</div>
 </template>
 
 <script lang="ts">
