@@ -1,4 +1,27 @@
 body {
   font: 100% Helvetica, sans-serif;
   color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+#AppBar {
+  position: fixed;
+  margin: 0;
+  padding: 16px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #171725;
+  background-color: #1de9b6;
+}
+#AppBar h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
 }

@@ -1,6 +1,23 @@
+@import material-fonts.sass
+@import material-colors.sass
+  
 $font-stack:    Helvetica, sans-serif
 $primary-color: #666
 
 body
   font: 100% $font-stack
   color: $primary-color
+  margin: 0
+  padding: 0
+
+#AppBar
+  position: fixed
+  margin: 0
+  padding: 16px
+  top: 0
+  left: 0
+  width: 100%
+  @include ElementColorPrimary()
+  h1
+    @include TypeButton()
+  
