@@ -1,5 +1,5 @@
 <template>
-  <button :class="`material-button ${buttonClasses}`">
+  <button :class="`material-button ${buttonClasses}`" @click="clicked">
     <slot />
   </button>
 </template>
@@ -33,7 +33,11 @@ export default defineComponent({
 
     const buttonClasses = computed(():string => (activeClasses.value.join(' ')))
 
-    return { buttonClasses }
+    const clicked = () => {
+      if (props.action) props.action()
+    }
+
+    return { buttonClasses, clicked }
   }
 })
 </script>

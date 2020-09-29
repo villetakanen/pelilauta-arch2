@@ -14,6 +14,7 @@ body
   color: $primary-color
   margin: 0
   padding: 0
+  @include TypeBody1()
 
 #AppBar
   position: fixed
@@ -39,6 +40,6 @@ div.toolbar
   margin: 0 auto
   padding: 0
   max-width: 720px
-  *:first-child
+  div.main-view:first-child
     margin-top: 72px
   
