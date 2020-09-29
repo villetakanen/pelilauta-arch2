@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/villetakanen/pelilauta/compare/v1.5.0...v1.6.0) (2020-09-29)
+
+
+### Features
+
+* login ([7f4a67b](https://github.com/villetakanen/pelilauta/commit/7f4a67b5cb414fdcce1acb52f1ad3834961dadaa))
+* login button colors ([b05649f](https://github.com/villetakanen/pelilauta/commit/b05649f94dcce366bc51dacf780b73fd8f2e5642))
+
 ## [1.5.0](https://github.com/villetakanen/pelilauta/compare/v1.4.0...v1.5.0) (2020-09-29)
 
 
