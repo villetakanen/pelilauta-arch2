@@ -1,3 +1,28 @@
+.material-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.material-button img {
+  max-width: 100%;
+}
+
+.material-button-icon {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(245, 250, 255, 0.5);
+}
+
 .material-fab {
   position: fixed;
   bottom: 16px;
@@ -8,9 +33,7 @@
   border: 0;
   color: #171725;
   background-color: #1de9b6;
-  font-family: "Roboto", sans-serif;
   line-height: 37px;
   font-size: 37px;
-  overflow: hidden;
   font-weight: 300;
 }
