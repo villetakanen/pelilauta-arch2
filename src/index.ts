@@ -1,7 +1,17 @@
 import { createApp } from 'vue'
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from './views/Home.vue'
+import NotFound from './views/NotFound.vue'
 import App from './App.vue'
 
+const routes = [
+  { path: '/', component: Home },
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound }
+]
+const router = createRouter({ history: createWebHistory(), routes })
+
 const app = createApp(App)
+app.use(router)
 app.mount('#app')
 
 // Hot Module Replacement (HMR) - Remove this snippet to remove HMR.

@@ -1,5 +1,8 @@
 <template>
   <AppBar />
+  <div id="router-container">
+    <router-view />
+  </div>
   <MaterialButton
     fab
   >

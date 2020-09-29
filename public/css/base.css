@@ -81,3 +81,12 @@ div.toolbar {
 div.toolbar div.spacer {
   flex-grow: 1;
 }
+
+#router-container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 720px;
+}
+#router-container *:first-child {
+  margin-top: 72px;
+}
