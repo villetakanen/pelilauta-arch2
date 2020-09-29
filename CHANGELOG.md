@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/villetakanen/pelilauta/compare/v1.4.0...v1.5.0) (2020-09-29)
+
+
+### Features
+
+* added router ([b5ea4d3](https://github.com/villetakanen/pelilauta/commit/b5ea4d3c2cb39d2656136e03e7de4d267b6eede9))
+* login button added ([d19054a](https://github.com/villetakanen/pelilauta/commit/d19054a92afbcc254b8ab339bfb778e8983db15f))
+
 ## [1.4.0](https://github.com/villetakanen/pelilauta/compare/v1.3.1...v1.4.0) (2020-09-28)
 
 
